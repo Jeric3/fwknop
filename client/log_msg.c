@@ -30,6 +30,8 @@
 #include "log_msg.h"
 #include <stdarg.h>
 
+log_level_t log_level = LOG_DEFAULT_VERBOSITY;  // Define and initialize the global log level
+
 #define LOG_STREAM_STDERR   stderr                  /*!< Error and warning messages are redirected to stderr */
 #define LOG_STREAM_STDOUT   stdout                  /*!< Normal, info and debug messages are redirected to stdout */
 
