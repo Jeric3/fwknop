@@ -5,7 +5,7 @@
 @settitle Firewall Knock Operator Library - libfko
 @c @setchapternewpage odd
 @ifnothtml
-@setcontentsaftertitlepage
+@c @setcontentsaftertitlepage
 @end ifnothtml
 @finalout
 @c Unify some of the indices.
